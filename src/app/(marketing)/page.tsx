@@ -33,7 +33,6 @@ const Page = () => {
                 <HomeReviews />
                 {/*<HomeCta />*/}
                 <HomeFaqs />
-
             </main>
         </>
     );

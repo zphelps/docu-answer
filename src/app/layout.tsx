@@ -3,6 +3,7 @@ import type {Metadata} from "next";
 
 import {NProgress} from "@/components/nprogress";
 import {Layout as RootLayout} from "@/layouts/root";
+import { Analytics } from '@vercel/analytics/react';
 
 import "@/global.css";
 
@@ -42,6 +43,7 @@ const Layout = (props: LayoutProps) => {
             {children}
             <NProgress/>
         </RootLayout>
+        <Analytics />
         </body>
         </html>
     );

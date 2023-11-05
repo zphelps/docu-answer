@@ -39,15 +39,15 @@ export const HomeHero: FC = () => {
                             textAlign={"center"}
                             sx={{mb: 5, mt: 4}}
                         >
-                            I need to come up with a more&nbsp;
+                            Get &nbsp;
                             <Typography
                                 component="span"
                                 color="primary.main"
                                 variant="inherit"
                             >
-                                ~creative~
+                                instant
                             </Typography>
-                            {' catch phrase.'}
+                            {' answers from your documents.'}
                         </Typography>
                         <Typography
                             color="text.secondary"
@@ -58,7 +58,7 @@ export const HomeHero: FC = () => {
                                 mb: 5
                             }}
                         >
-                            This is where I will put some clever DBrand-like marketing slogan once David gets off his ass and write is for me. David please get on this ;)
+                            Unlock the power of information without the search hassle. DocuAnswer AI provides precise answers to your questions directly from your stored documents
                         </Typography>
                         <FileDropzone
                             accept={{"application/pdf": []}}

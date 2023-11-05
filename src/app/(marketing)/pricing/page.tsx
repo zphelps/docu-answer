@@ -40,27 +40,30 @@ const Page = () => {
                 mb: 4,
               }}
             >
-              <Typography variant="h3">Start today. Boost up your services!</Typography>
+              <Typography variant="h3">Flexible Pricing for Every Need</Typography>
               <Typography
                 color="text.secondary"
+                textAlign={'center'}
+                maxWidth={'md'}
                 sx={{ my: 2 }}
                 variant="body1"
               >
-                Join 6,000+ developers &amp; designers using Devias to power modern web projects.
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
+                  Whether you're an individual professional, a small team, or a large organization, DocuAnswer AI offers flexible pricing plans to suit your specific needs. Try our free version or upgrade for advanced features and support.
               </Typography>
-              <Stack
-                alignItems="center"
-                direction="row"
-                spacing={1}
-              >
-                <Switch checked />
-                <Typography variant="body1">Yearly Payment</Typography>
-                <Chip
-                  color="primary"
-                  label="25% OFF"
-                  size="small"
-                />
-              </Stack>
+              {/*<Stack*/}
+              {/*  alignItems="center"*/}
+              {/*  direction="row"*/}
+              {/*  spacing={1}*/}
+              {/*>*/}
+              {/*  <Switch checked />*/}
+              {/*  <Typography variant="body1">Yearly Payment</Typography>*/}
+              {/*  <Chip*/}
+              {/*    color="primary"*/}
+              {/*    label="25% OFF"*/}
+              {/*    size="small"*/}
+              {/*  />*/}
+              {/*</Stack>*/}
             </Box>
             <Grid
               container
@@ -136,16 +139,16 @@ const Page = () => {
                 />
               </Grid>
             </Grid>
-            <Box sx={{ mt: 4 }}>
-              <Typography
-                align="center"
-                color="text.secondary"
-                component="p"
-                variant="caption"
-              >
-                30% of our income goes into Whale Charity
-              </Typography>
-            </Box>
+            {/*<Box sx={{ mt: 4 }}>*/}
+            {/*  <Typography*/}
+            {/*    align="center"*/}
+            {/*    color="text.secondary"*/}
+            {/*    component="p"*/}
+            {/*    variant="caption"*/}
+            {/*  >*/}
+            {/*    30% of our income goes into Whale Charity*/}
+            {/*  </Typography>*/}
+            {/*</Box>*/}
           </Container>
         </Box>
         <Divider />

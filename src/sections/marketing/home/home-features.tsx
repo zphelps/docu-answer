@@ -9,6 +9,8 @@ import Stack from '@mui/material/Stack';
 import SvgIcon from '@mui/material/SvgIcon';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
+import {RouterLink} from "@/components/router-link";
+import {paths} from "@/paths";
 
 interface Feature {
   id: string;
@@ -21,41 +23,41 @@ interface Feature {
 const features: Feature[] = [
   {
     id: 'experts',
-    title: 'Built by experts',
+    title: 'Intuitive Q&A Interface',
     description:
-      'All of the code follows MUI best practices, it’s written by our in-house team of experts.',
+      'Just type in your question and receive an instant answer. No need to read through long documents.',
     imageDark: '/assets/home-features-experts-dark.png',
     imageLight: '/assets/home-features-experts-light.png',
   },
   {
     id: 'figma',
-    title: 'Design Files',
+    title: 'Multi-Document Wisdom',
     description:
-      "We've included the source Figma files to Plus & Extended licenses so you can get creative! Build layouts with confidence.",
+      "Our AI scans through multiple documents to find the most accurate answer.",
     imageDark: '/assets/home-features-figma-dark.png',
     imageLight: '/assets/home-features-figma-light.png',
   },
   {
     id: 'tech',
-    title: 'Built with modern technologies',
+    title: 'Contextual Understanding',
     description:
-      'Each template is a well-structured CRA & Next.js project, giving you a codebase that’s productive and enjoyable to work in.',
+      'Get answers that understand the context of your documents, not just keyword matches.',
     imageDark: '/assets/home-features-tech-dark.png',
     imageLight: '/assets/home-features-tech-light.png',
   },
   {
     id: 'customize',
-    title: 'Easy to customize',
+    title: 'Secure and Private',
     description:
-      'Everything is styled using global theme overrides, just open the theme file in your editor and change whatever you want.',
+      'Your documents are never shared, ensuring total confidentiality.',
     imageDark: '/assets/home-features-customize-dark.png',
     imageLight: '/assets/home-features-customize-light.png',
   },
   {
     id: 'productive',
-    title: 'Built with CRA & Next.js',
+    title: 'Continuous Learning',
     description:
-      'Well-structured, thoughtfully componentized CRA & Next.js project, giving you a codebase that’s productive and enjoyable to work in.',
+      'DocuAnswer AI learns from your questions to provide better, more precise answers over time.',
     imageDark: '/assets/home-features-nextjs-dark.png',
     imageLight: '/assets/home-features-nextjs-light.png',
   },
@@ -88,14 +90,14 @@ export const HomeFeatures: FC = () => {
             color="inherit"
             variant="h3"
           >
-            Everything you need to run your project.
+            Powerful Features To Boost Your Efficiency
           </Typography>
           <Typography
             align="center"
             color="inherit"
             variant="subtitle2"
           >
-            Not just a set of tools, the package includes ready-to-deploy conceptual application.
+            You have better things to do than read through long documents. Let DocuAnswer AI do the work for you.
           </Typography>
         </Stack>
         <Grid
@@ -156,18 +158,17 @@ export const HomeFeatures: FC = () => {
                       <Box sx={{ mt: 3 }}>
                         <Button
                           color="success"
-                          component="a"
+                          component={RouterLink}
                           endIcon={
                             <SvgIcon fontSize="small">
                               <LinkExternal01Icon />
                             </SvgIcon>
                           }
-                          href="https://www.figma.com/file/xrx6uDljzsWuDZiuz3ITCp/Devias-Kit-Pro-UI-6.0-Master"
+                          href={paths.documents.index}
                           size="small"
-                          target="_blank"
                           variant="contained"
                         >
-                          Preview in Figma
+                          Try it now
                         </Button>
                       </Box>
                     )}

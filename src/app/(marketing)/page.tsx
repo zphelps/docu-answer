@@ -30,7 +30,7 @@ const Page = () => {
             <main>
                 <HomeHero />
                 <HomeFeatures />
-                <HomeReviews />
+                {/*<HomeReviews />*/}
                 {/*<HomeCta />*/}
                 <HomeFaqs />
             </main>

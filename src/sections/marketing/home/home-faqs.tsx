@@ -18,29 +18,24 @@ interface FaqType {
 
 const faqs: FaqType[] = [
   {
-    question: 'Do you have a free demo to review the code before purchasing?',
+    question: 'What happens to my documents after I upload them to DocuAnswer AI?',
     answer:
-      'Yes, you can check out our open source dashboard template which should give you an overview of the code quality and folder structure. Keep in mind that some aspects may differ from this Paid version.',
+      'Your documents are stored securely on our servers to provide the Q&A service. We do not access or use your documents for any other purpose. You can delete your documents at any time.',
   },
   {
-    question: 'How many projects can I build with Devias Kit PRO?',
+    question: 'What file types are supported by DocuAnswer AI?',
     answer:
-      "The license is per project (domain), but if you intend to develop an unknown number of projects feel free to contact us and we'll find a solution.",
+      "Our application currently supports PDF documents. We're working on adding more formats soon!",
   },
   {
-    question: 'How many projects can I build with this template?',
+    question: 'Is there a limit to the number of documents I can upload?',
     answer:
-      'Absolutely! If you intend to charge users for using your product Extended license is created specifically for this context.',
+      'The number of documents you can upload depends on your subscription plan. Our free plan includes a basic limit, while our premium plans offer more capacity for professional and enterprise needs.',
   },
   {
-    question: 'What browsers does the template support?',
+    question: 'How accurate is the Q&A feature?\n',
     answer:
-      "The components in MUI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge. We don't support Internet Explorer 11.",
-  },
-  {
-    question: 'For what kind of projects is the Standard license intended?',
-    answer:
-      'The Standard license is designed for internal applications in which staff will access the application. An example could be the back-office dashboard of a public-facing e-commerce website in which staff would sign in and manage inventory, customers, etc.',
+      "DocuAnswer AI is highly accurate, utilizing state-of-the-art technology to ensure the answers provided are relevant and precise. Accuracy improves as the AI learns from interactions.",
   },
 ];
 

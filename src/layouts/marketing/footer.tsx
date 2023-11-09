@@ -29,7 +29,7 @@ const sections: Section[] = [
       },
       {
         title: 'About',
-        path: paths.docs,
+        path: paths.index,
       },
     ],
   },

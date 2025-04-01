@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DocuAnswer
+
+DocuAnswer is an intelligent document Q&A system that allows users to upload documents and ask questions about their content. The system processes documents and provides accurate answers based on the document's content.
+
+## Features
+
+- **Document Upload**: Support for uploading various document formats
+- **Natural Language Questions**: Ask questions in plain English about your documents
+- **Intelligent Answering**: Get precise answers based on document content
+- **Context-Aware Responses**: Answers are generated with full context from the document
+- **User-Friendly Interface**: Clean and intuitive design for easy interaction
+
+## How It Works
+
+1. **Upload**: Users upload their documents to the system
+2. **Processing**: Documents are processed and indexed for efficient retrieval
+3. **Questioning**: Users can ask questions about the document content
+4. **Answering**: The system provides relevant answers based on the document's content
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+4. Begin uploading documents and asking questions
